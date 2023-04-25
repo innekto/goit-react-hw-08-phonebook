@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import { Backdrop, Box, Modal, Fade } from '@mui/material';
 import { UpdateContactForm } from 'components/UpdateContactForm';
-import { UpdateContactModalStyle } from './UpdateContactModalStyle';
+import { UpdateContactModalStyle } from './UpdateContactModals';
 
 export const UpdateContactModal = ({
   isOpenModal,
