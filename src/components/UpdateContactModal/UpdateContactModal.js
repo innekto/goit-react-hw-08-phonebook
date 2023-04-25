@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import { Backdrop, Box, Modal, Fade } from '@mui/material';
 import { UpdateContactForm } from 'components/UpdateContactForm';
-import { UpdateContactModalStyle } from './UpdateContactModals';
+import { updateContactModalStyle } from './UpdateContactModals';
 
 export const UpdateContactModal = ({
   isOpenModal,
@@ -22,7 +22,7 @@ export const UpdateContactModal = ({
     aria-describedby="spring-modal-number"
   >
     <Fade in={isOpenModal}>
-      <Box sx={UpdateContactModalStyle}>
+      <Box sx={updateContactModalStyle}>
         <UpdateContactForm
           onClose={onClose}
           id={id}
