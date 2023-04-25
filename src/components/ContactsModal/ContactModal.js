@@ -18,7 +18,7 @@ export const UpdateContactModal = ({ isOpenModal, onClose }) => (
       aria-describedby="spring-modal-number"
     >
       <Fade in={isOpenModal}>
-        <Box sx={UpdateContactModalStyle}>
+        <Box sx={ContactModalStyle}>
           <UpdateContactForm onClose={onClose} />
         </Box>
       </Fade>
