@@ -51,7 +51,7 @@ export const UpdateContactForm = ({ onClose, id, name, number }) => {
   return (
     <Paper elevation={3} sx={{ p: 2 }}>
       <form onSubmit={formik.handleSubmit}>
-        <Grid container spacing={2}>
+        <Grid container spacing={4}>
           <Grid item xs={12}></Grid>
           <Grid item xs={12}>
             <FormControl variant="filled" fullWidth>
